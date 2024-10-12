@@ -3,4 +3,4 @@
 
 # **Welcome to my Github Pages Portfolio Site! 👋🏼**
 
-**Take a look around here: [Marianna Trench Portfolio Site Center]([https://your-url.com](https://mariannatrench247.github.io/))**
+**Take a look around here: [Marianna Trench Portfolio Site](https://mariannatrench247.github.io/)**
