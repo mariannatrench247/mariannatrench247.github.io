@@ -2284,6 +2284,14 @@ input, select, textarea {
 
 /* Image */
 
+	.intro-image {
+	    width: 150px; /* Adjust the size as needed */
+    	    height: auto;
+    	    float: left;
+   	    margin-right: 15px; /* Space between the image and the text */
+	}
+
+
 	.image {
 		border: 0;
 		display: inline-block;
