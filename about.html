@@ -5,6 +5,22 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Centered white wrapper for the content */
+			.white-wrapper {
+				background-color: white;
+				padding: 20px;
+				max-width: 800px;  /* Limit the width of the white box */
+				margin: 50px auto; /* Center the div horizontally and give it some space from the top */
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+				border-radius: 10px; /* Rounded corners for aesthetic */
+			}
+
+			body {
+				background-color: #f4f4f4; /* Gray background to make the white div stand out */
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
+			}
+		</style>
 	</head>
 	<body>
 		<header id="header">
@@ -13,19 +29,21 @@
 		
 		<!-- Main Content -->
 		<section id="main">
-			<h2>Who Am I?</h2>
-			<p>I'm Marianna Trench, a passionate developer with extensive experience in Deep Learning, Data Science, Robotics, and Web Development.</p>
-			
-			<h2>My Skills</h2>
-			<ul>
-				<li>Deep Learning & Neural Networks</li>
-				<li>Data Science & Data Analytics</li>
-				<li>Robotics & AI Applications</li>
-				<li>Web Development (HTML, CSS, JavaScript)</li>
-				<li>Python, C++, TensorFlow, PyTorch</li>
-			</ul>
-			
-			<a href="index.html" class="button">Back to Home Page</a>
+			<div class="white-wrapper">
+				<h2>Who Am I?</h2>
+				<p>I'm Marianna Trench, a passionate developer with extensive experience in Deep Learning, Data Science, Robotics, and Web Development.</p>
+				
+				<h2>My Skills</h2>
+				<ul>
+					<li>Deep Learning & Neural Networks</li>
+					<li>Data Science & Data Analytics</li>
+					<li>Robotics & AI Applications</li>
+					<li>Web Development (HTML, CSS, JavaScript)</li>
+					<li>Python, C++, TensorFlow, PyTorch</li>
+				</ul>
+				
+				<a href="index.html" class="button">Back to Home Page</a>
+			</div>
 		</section>
 
 		<!-- Footer -->
