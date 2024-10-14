@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Projects - Marianna Trench</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<header id="header">
+			<h1>My Projects</h1>
+		</header>
+		
+		<!-- Main Content -->
+		<section id="main">
+			<h2>Deep Learning Projects</h2>
+			<p>I've worked on various deep learning projects, including training foundation models and building neural networks for different applications.</p>
+
+			<h2>Data Science Pipelines</h2>
+			<p>From ETL pipelines to data visualization, I have implemented end-to-end data science solutions.</p>
+
+			<h2>Web Development</h2>
+			<p>Check out my web development projects using HTML, CSS, JavaScript, and Python for full-stack solutions.</p>
+			
+			<a href="index.html" class="button">Back to Home Page</a>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p>&copy; Marianna Trench. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
