@@ -3443,6 +3443,29 @@ input, select, textarea {
 			}
 
 		}
+		/* CSS for Full-Width Image */
+		.full-width-image {
+		    width: 100%;        /* Image will stretch to the full width of the viewport */
+		    height: auto;       /* Height adjusts automatically based on the aspect ratio */
+		    display: block;     /* Ensures no unwanted inline spacing */
+		}
+		
+		/* Optional: Styling the wrapper to add padding or alignment */
+		#wrapper {
+		    padding: 20px;      /* Adjust padding to your preference */
+		    margin: 0 auto;     /* Centers the wrapper */
+		    max-width: 1200px;  /* Ensures the content inside doesn't exceed a certain width */
+		}
+		
+		#header h1 {
+		    margin-top: 20px;   /* Adds spacing between the image and "Welcome" text */
+		}
+		
+		/* Add this rule to override body margins if needed */
+		body {
+		    margin: 0;
+		    padding: 0;
+		}
 
 /* Intro */
 
