@@ -1,49 +1,47 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Contact - Marianna Trench</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<header id="header">
-			<h1>Contact Me</h1>
-		</header>
+<head>
+	<title>Contact - Marianna Trench</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+	<header id="header">
+		<h1>Contact Me</h1>
+	</header>
+	
+	<!-- Main Content -->
+	<section id="main">
+		<h2>Get in Touch</h2>
+		<p>If you have any questions, feel free to reach out to me. I'd love to connect!</p>
 		
-		<!-- Main Content -->
-		<section id="main">
-			<h2>Get in Touch</h2>
-			<p>If you have any questions, feel free to reach out to me. I'd love to connect!</p>
-			
-			<form method="post" action="#">
-				<div class="row gtr-uniform">
-					<div class="col-6 col-12-xsmall">
-						<input type="text" name="name" id="name" placeholder="Name" />
-					</div>
-					<div class="col-6 col-12-xsmall">
-						<input type="email" name="email" id="email" placeholder="Email" />
-					</div>
-					<div class="col-12">
-						<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-					</div>
-					<div class="col-12">
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="primary" /></li>
-							<li><input type="reset" value="Reset" /></li>
-						</ul>
-					</div>
+		<form method="POST" action="https://formspree.io/f/xrbggpvr">
+			<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall">
+					<input type="text" name="name" id="name" placeholder="Name" required />
 				</div>
-			</form>
+				<div class="col-6 col-12-xsmall">
+					<input type="email" name="email" id="email" placeholder="Email" required />
+				</div>
+				<div class="col-12">
+					<textarea name="message" id="message" placeholder="Enter your message" rows="6" required></textarea>
+				</div>
+				<div class="col-12">
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
 
-			<a href="index.html" class="button">Back to Home Page</a>
-		</section>
+		<a href="index.html" class="button">Back to Home Page</a>
+	</section>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<p>&copy; Marianna Trench. All rights reserved.</p>
-		</footer>
-	</body>
+	<!-- Footer -->
+	<footer id="footer">
+		<p>&copy; Marianna Trench. All rights reserved.</p>
+	</footer>
+</body>
 </html>
-
-  
